@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+    
+
+ 
+}
+body{
+    background-color: #fbfbfb;
+}
+.back-img{
+    background-image:linear-gradient(to bottom, rgba(157,14,14,0), #4F0707),url(./images/bg_img.png);
+    height: 480px;
+}
+.createacc{
+    border: 1px solid white;
+    
+}
+
+.login, .createacc{
+   text-decoration: none;
+   color: white;
+   opacity: 0.9;
+}
+
+.login:hover, .createacc:hover{
+    color:white;
+
+}
+.logo{
+    display: inline;
+    color:#EB2929;
+    border-radius: 50%;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: white;
+}
+.item{
+    color:#fbfbfb;
+    font-size: 36px;
+    font-weight: bold;
+}
+.search-bar{
+    color: #636F88;
+    border: none;
+    width: 100%;
+}
+.restaurant{
+    width: 80%;
+}
+.down{
+    width: 90%;
+    margin-left: 25%;
+}
+.para{
+    color: #8C96AB;
+    font-size: 18px;
+}
+.para1{
+    font-size: 30px;
+    color:#192F60;
+    font-weight: 700;
+   
+}
+.para2{
+    font-size: 18px;
+    color:#8C96AB;
+    font-weight: 700;
+}
+
+.card1{
+    margin-left: 3%;
+    box-shadow: 0px 3px 6px #00000029;
+    border:none;
+    width: 30%;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    
+}
+.tit1{
+    color: #192F60;
+    font-weight: 700;
+    font-size: 18px;
+}
+.cont{
+    color: #8C96AB;
+    font-size: 14px;
+}
+.font-icon{
+    position: absolute;
+    right:48%;
+    top:46%;
+    color: #8C96AB;
+}
+
+@media only screen and (max-width:576px) {
+
+    .login{
+        display: none;
+    }
+    .createacc{
+        display: none;
+    }
+    .restaurant{
+        margin-top:  5%;
+    }
+    .restaurant{
+        width:auto
+    }
+    .down{
+        width: auto;
+        margin-left: auto;
+        
+    }
+    .card1{
+        width: 70%;
+        margin-top: 2%;
+    }
+    .img1{
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+    .tit1{
+        color: #192F60;
+        font-weight: 700;
+        font-size:30px;
+      
+        
+    }
+    .cont{
+        color: #8C96AB;
+        font-size: 25px;
+
+    }
+    .font-icon{
+        display: none;
+    }
+  
+    
+    
+    
+}
+
+@media only screen and (max-width:770px){
+    .login{
+        position: relative;
+        left: 100px;
+    }
+    .createacc{
+        position: relative;
+        left: 100px;
+    }
+    .restaurant{
+        margin-top:  5%;
+    }
+    .restaurant{
+        width:auto
+    }
+    .down{
+        width: auto;
+        margin-left: auto;
+        
+    }
+    .card1{
+        width: 90%;
+        /* margin-left:auto; */
+      
+    }
+    .img1{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .tit1{
+        color: #192F60;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .cont{
+        color: #8C96AB;
+        font-size: 22px;
+      
+    }
+    .font-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .login{
+        position: relative;
+        left: 100px;
+    }
+    .createacc{
+        position: relative;
+        left: 100px;
+    }
+    .card1{
+       
+        margin-left:auto;
+      
+    }
+    .font-icon{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .font-icon{
+        display: none;
+    }
+}
+@media only screen and (min-width:1250px){
+    .font-icon{
+        display: none;
+    }
+}
